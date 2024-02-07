@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(#040228 0%, #0075c7 40%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2em;
+    cursor: default;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    background: #00a3b9;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec h2:nth-child(2) {
+    font-size: 2em;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.sec1 {
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+
+.sec1 h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec1 h2:nth-child(2) {
+    font-size: 2em;
+}
+
+.sec1 p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.sec2 {
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+
+.sec2 h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec2 h2:nth-child(2) {
+    font-size: 2em;
+}
+
+.sec2 p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.sec2 a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.sec2 a:hover {
+    color: purple; 
+}
+
+.sec3  {
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+
+.sec3 h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec3 h2:nth-child(2) {
+    font-size: 2em;
+}
+
+.sec3 p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.sec3 a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.sec3 a:hover {
+    color: purple; 
+}
+
+.sec3 ul {
+    color: #fff;
+}
+
+.sec3  {
+    position: relative;
+    padding: 100px;
+    background: #040228;
+}
+
+.sec4 {
+    position: relative;
+    padding: 100px;
+    background: #040228; /* Adjust background color as needed */
+    min-height: 100vh; /* Ensure a minimum height for the section */
+}
+
+.sec4 h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec4 h2:nth-child(2) {
+    font-size: 2em;
+}
+
+.sec4 p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
